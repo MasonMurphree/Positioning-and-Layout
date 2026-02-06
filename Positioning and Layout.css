@@ -1,0 +1,93 @@
+nav.jumpMenu {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 15%;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 2;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: yellow;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+
+}
+
+nav.jumpMenu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    display: block;
+    text-align: center;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+main {
+    margin-left: 15%;
+}
+
+.topmean {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1;
+
+    margin-left: -2%;
+    margin-top: -2%;
+
+}
+
+.topmean button {
+
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: blue;
+
+}
+
+header p {
+    margin-left: -2%;
+    padding: 20px;
+    font-size: 20px;
+
+
+    background-color: red;
+    text-align: center;
+}
+
+
+#thanks {
+    background-color: red;
+
+    padding: 20px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 14%;
+    font-size: 13px;
+    padding: 30px;
+}
